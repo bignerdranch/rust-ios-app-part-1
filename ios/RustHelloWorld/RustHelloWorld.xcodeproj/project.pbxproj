@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5239FF701AFB0C0C00BE121D /* libhello.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5239FF6F1AFB0C0C00BE121D /* libhello.a */; };
+		52CA3CD41AFB080900BFD3A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CA3CD31AFB080900BFD3A7 /* AppDelegate.swift */; };
+		52CA3CD61AFB080900BFD3A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CA3CD51AFB080900BFD3A7 /* ViewController.swift */; };
+		52CA3CD91AFB080900BFD3A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CA3CD71AFB080900BFD3A7 /* Main.storyboard */; };
+		52CA3CDB1AFB080900BFD3A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CA3CDA1AFB080900BFD3A7 /* Images.xcassets */; };
+		52CA3CDE1AFB080900BFD3A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52CA3CDC1AFB080900BFD3A7 /* LaunchScreen.xib */; };
+		52CA3CEA1AFB080A00BFD3A7 /* RustHelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CA3CE91AFB080A00BFD3A7 /* RustHelloWorldTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52CA3CE41AFB080A00BFD3A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52CA3CC61AFB080900BFD3A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52CA3CCD1AFB080900BFD3A7;
+			remoteInfo = RustHelloWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5239FF6F1AFB0C0C00BE121D /* libhello.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhello.a; path = ../../rust/hello/libhello.a; sourceTree = "<group>"; };
+		52CA3CCE1AFB080900BFD3A7 /* RustHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RustHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CA3CD21AFB080900BFD3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52CA3CD31AFB080900BFD3A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52CA3CD51AFB080900BFD3A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52CA3CD81AFB080900BFD3A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52CA3CDA1AFB080900BFD3A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52CA3CDD1AFB080900BFD3A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52CA3CE31AFB080A00BFD3A7 /* RustHelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RustHelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CA3CE81AFB080A00BFD3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52CA3CE91AFB080A00BFD3A7 /* RustHelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RustHelloWorldTests.swift; sourceTree = "<group>"; };
+		52CA3CF31AFB084400BFD3A7 /* hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hello.h; path = ../../rust/hello/hello.h; sourceTree = "<group>"; };
+		52CA3CF41AFB093C00BFD3A7 /* RustHelloWorld-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RustHelloWorld-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52CA3CCB1AFB080900BFD3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5239FF701AFB0C0C00BE121D /* libhello.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CA3CE01AFB080A00BFD3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52CA3CC51AFB080900BFD3A7 = {
+			isa = PBXGroup;
+			children = (
+				5239FF6F1AFB0C0C00BE121D /* libhello.a */,
+				52CA3CF31AFB084400BFD3A7 /* hello.h */,
+				52CA3CD01AFB080900BFD3A7 /* RustHelloWorld */,
+				52CA3CE61AFB080A00BFD3A7 /* RustHelloWorldTests */,
+				52CA3CCF1AFB080900BFD3A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52CA3CCF1AFB080900BFD3A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52CA3CCE1AFB080900BFD3A7 /* RustHelloWorld.app */,
+				52CA3CE31AFB080A00BFD3A7 /* RustHelloWorldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52CA3CD01AFB080900BFD3A7 /* RustHelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				52CA3CD31AFB080900BFD3A7 /* AppDelegate.swift */,
+				52CA3CD51AFB080900BFD3A7 /* ViewController.swift */,
+				52CA3CD71AFB080900BFD3A7 /* Main.storyboard */,
+				52CA3CDA1AFB080900BFD3A7 /* Images.xcassets */,
+				52CA3CDC1AFB080900BFD3A7 /* LaunchScreen.xib */,
+				52CA3CD11AFB080900BFD3A7 /* Supporting Files */,
+				52CA3CF41AFB093C00BFD3A7 /* RustHelloWorld-Bridging-Header.h */,
+			);
+			path = RustHelloWorld;
+			sourceTree = "<group>";
+		};
+		52CA3CD11AFB080900BFD3A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52CA3CD21AFB080900BFD3A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52CA3CE61AFB080A00BFD3A7 /* RustHelloWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				52CA3CE91AFB080A00BFD3A7 /* RustHelloWorldTests.swift */,
+				52CA3CE71AFB080A00BFD3A7 /* Supporting Files */,
+			);
+			path = RustHelloWorldTests;
+			sourceTree = "<group>";
+		};
+		52CA3CE71AFB080A00BFD3A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52CA3CE81AFB080A00BFD3A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52CA3CCD1AFB080900BFD3A7 /* RustHelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52CA3CED1AFB080A00BFD3A7 /* Build configuration list for PBXNativeTarget "RustHelloWorld" */;
+			buildPhases = (
+				52CA3CCA1AFB080900BFD3A7 /* Sources */,
+				52CA3CCB1AFB080900BFD3A7 /* Frameworks */,
+				52CA3CCC1AFB080900BFD3A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RustHelloWorld;
+			productName = RustHelloWorld;
+			productReference = 52CA3CCE1AFB080900BFD3A7 /* RustHelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52CA3CE21AFB080A00BFD3A7 /* RustHelloWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52CA3CF01AFB080A00BFD3A7 /* Build configuration list for PBXNativeTarget "RustHelloWorldTests" */;
+			buildPhases = (
+				52CA3CDF1AFB080A00BFD3A7 /* Sources */,
+				52CA3CE01AFB080A00BFD3A7 /* Frameworks */,
+				52CA3CE11AFB080A00BFD3A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52CA3CE51AFB080A00BFD3A7 /* PBXTargetDependency */,
+			);
+			name = RustHelloWorldTests;
+			productName = RustHelloWorldTests;
+			productReference = 52CA3CE31AFB080A00BFD3A7 /* RustHelloWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52CA3CC61AFB080900BFD3A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+				TargetAttributes = {
+					52CA3CCD1AFB080900BFD3A7 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					52CA3CE21AFB080A00BFD3A7 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 52CA3CCD1AFB080900BFD3A7;
+					};
+				};
+			};
+			buildConfigurationList = 52CA3CC91AFB080900BFD3A7 /* Build configuration list for PBXProject "RustHelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52CA3CC51AFB080900BFD3A7;
+			productRefGroup = 52CA3CCF1AFB080900BFD3A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52CA3CCD1AFB080900BFD3A7 /* RustHelloWorld */,
+				52CA3CE21AFB080A00BFD3A7 /* RustHelloWorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52CA3CCC1AFB080900BFD3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CA3CD91AFB080900BFD3A7 /* Main.storyboard in Resources */,
+				52CA3CDE1AFB080900BFD3A7 /* LaunchScreen.xib in Resources */,
+				52CA3CDB1AFB080900BFD3A7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CA3CE11AFB080A00BFD3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52CA3CCA1AFB080900BFD3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CA3CD61AFB080900BFD3A7 /* ViewController.swift in Sources */,
+				52CA3CD41AFB080900BFD3A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CA3CDF1AFB080A00BFD3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CA3CEA1AFB080A00BFD3A7 /* RustHelloWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52CA3CE51AFB080A00BFD3A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52CA3CCD1AFB080900BFD3A7 /* RustHelloWorld */;
+			targetProxy = 52CA3CE41AFB080A00BFD3A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52CA3CD71AFB080900BFD3A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52CA3CD81AFB080900BFD3A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52CA3CDC1AFB080900BFD3A7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52CA3CDD1AFB080900BFD3A7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52CA3CEB1AFB080A00BFD3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52CA3CEC1AFB080A00BFD3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52CA3CEE1AFB080A00BFD3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RustHelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../rust/hello",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RustHelloWorld/RustHelloWorld-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52CA3CEF1AFB080A00BFD3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RustHelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../rust/hello",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RustHelloWorld/RustHelloWorld-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		52CA3CF11AFB080A00BFD3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RustHelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RustHelloWorld.app/RustHelloWorld";
+			};
+			name = Debug;
+		};
+		52CA3CF21AFB080A00BFD3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RustHelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RustHelloWorld.app/RustHelloWorld";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52CA3CC91AFB080900BFD3A7 /* Build configuration list for PBXProject "RustHelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CA3CEB1AFB080A00BFD3A7 /* Debug */,
+				52CA3CEC1AFB080A00BFD3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CA3CED1AFB080A00BFD3A7 /* Build configuration list for PBXNativeTarget "RustHelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CA3CEE1AFB080A00BFD3A7 /* Debug */,
+				52CA3CEF1AFB080A00BFD3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CA3CF01AFB080A00BFD3A7 /* Build configuration list for PBXNativeTarget "RustHelloWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CA3CF11AFB080A00BFD3A7 /* Debug */,
+				52CA3CF21AFB080A00BFD3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52CA3CC61AFB080900BFD3A7 /* Project object */;
+}
