@@ -1,7 +1,7 @@
 # Let's Build an iOS App in Rust, part 1
 
 This is the repository accompanying the [Let's Build an iOS App in Rust, part
-1][TODO-LINK] blog post.
+1](https://www.bignerdranch.com/blog/building-an-ios-app-in-rust-part-1/) blog post.
 
 ## Building and Running
 
